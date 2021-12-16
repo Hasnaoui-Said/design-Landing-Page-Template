@@ -29,7 +29,7 @@ body {
 }
 
 .hero__image {
-  border: 3px solid #eee;
+  border: 2px solid #eee;
   border-radius: 3px;
   padding: 1px;
   max-width: 550px;
@@ -109,85 +109,84 @@ body {
   color: #666;
   font-size: 14px;
 }
-    /* Start nav-bar */
-header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0 5%;
+/* Start nav-bar */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 5%;
 }
-.toog{
+.toog {
+  display: none;
+}
+.nav__bar {
+  width: 35%;
+}
+.nav__bar ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+}
+.nav__bar ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+.sign {
+  display: flex;
+  justify-content: space-between;
+  gap: 7.5px;
+  align-items: center;
+}
+.sign div a {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+  padding: 7.5px;
+  font-size: 18px;
+}
+.sign button {
+  background-color: #0b48a8;
+  color: #fff;
+  font-size: 15px;
+  padding: 7.5px;
+  border-radius: 7.5px;
+  border: none;
+}
+
+.sign div a:hover {
+  background-color: #0b48a8;
+  color: #fff;
+  font-size: 18px;
+  padding: 7.5px;
+  border-radius: 7.5px;
+  border: none;
+}
+.sign button:hover {
+  background-color: rgb(255, 255, 255);
+  color: #0b48a8;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1080px) {
+  .nav__bar {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 620px) {
+  .nav__bar {
     display: none;
+  }
+  .toog {
+    display: block;
+    margin: 10px 0px;
+  }
+  .sign {
+    display: none;
+  }
 }
-.nav__bar{
-    width: 35%;
-}
-.nav__bar ul{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    list-style: none;
-
-}
-.nav__bar ul li a{
-    text-decoration: none;
-    color: black;
-}
-
-.sign{
-    display: flex;
-    justify-content: space-between;
-    gap: 7.5px;
-    align-items: center;
-}
-.sign div a{
-    text-decoration: none;
-    color: black;
-    cursor: pointer;
-    padding: 7.5px;
-    font-size: 18px;
-}
-.sign button{
-    background-color: #0B48A8;
-    color: #fff;
-    font-size: 15px;
-    padding: 7.5px;
-    border-radius: 7.5px;
-    border: none;
-}
-
-.sign div a:hover{
-    background-color: #0B48A8;
-    color: #fff;
-    font-size: 18px;
-    padding: 7.5px;
-    border-radius: 7.5px;
-    border: none;
-}
-.sign button:hover{
-    background-color: rgb(255, 255, 255);
-    color: #0B48A8;
-    cursor: pointer;
-}
-
-@media screen and (max-width:1080px) {
-    .nav__bar{
-        width: 50%;
-    }
-}
-@media screen and (max-width:620px) {
-    .nav__bar{
-        display: none;
-    }
-    .toog{
-        display: block;
-        margin: 10px 0px;
-    }
-    .sign{
-        display: none;
-    }
-}
-    /* end nav-bar */
+/* end nav-bar */
 
 @media screen and (min-width: 992px) {
   .hero__content {
@@ -242,57 +241,57 @@ header{
 
 /* start Pricing Section */
 
-    /* start features section */
+/* start features section */
 
-    .test__parent{ 
-        font-family: Arial, Helvetica, sans-serif;
-        color: #A2A2A2;
-        border: 1px solid black;
-        margin: 0 5%;
-        margin-top: 5%;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        flex-wrap: wrap;
-        gap: 2%;
-      }
-      
-      .item{
-        border: 1px solid #B8B8B8;
-        border-radius: 2px;
-        margin:  3%;
-        padding: 3%;
-        width: 88%;
-      }
-      .col{
-        color: black;
-      }
-      .para{
-        font-size: 20PX;
-      }
-      
-      /*------Tablet------*/
-      
-      @media screen and (min-width: 429px) {
-        .test__parent{
-          flex-direction: row;
-          border: none;
-        }  
-        .item{
-          width: 40%;
-          margin: 0;
-          margin-bottom: 5%;
-        }
-      }
-      
-      /*------Desktop------*/
-        
-      @media screen and (min-width: 1024px) {  
-        .item{
-          width: 16%;
-        }
-      }
-    /* end features section */
+.test__parent {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #a2a2a2;
+  border: 1px solid black;
+  margin: 0 5%;
+  margin-top: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 2%;
+}
+
+.item {
+  border: 1px solid #b8b8b8;
+  border-radius: 2px;
+  margin: 3%;
+  padding: 3%;
+  width: 88%;
+}
+.col {
+  color: black;
+}
+.para {
+  font-size: 20px;
+}
+
+/*------Tablet------*/
+
+@media screen and (min-width: 429px) {
+  .test__parent {
+    flex-direction: row;
+    border: none;
+  }
+  .item {
+    width: 40%;
+    margin: 0;
+    margin-bottom: 5%;
+  }
+}
+
+/*------Desktop------*/
+
+@media screen and (min-width: 1024px) {
+  .item {
+    width: 16%;
+  }
+}
+/* end features section */
 
 /* end Pricing Section */
 
