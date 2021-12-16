@@ -1,18 +1,246 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: auto;
+  background-color: #fbf7ee;
+}
+/* Start nav-bar */
 
-body{
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    height: auto;
-    background-color: #fbf7ee;
+/* end nav-bar */
+
+/* start Hero section */
+
+.container {
+  margin: auto;
+  width: 90%;
+}
+
+/* Start Hero Section */
+.hero-section {
+  margin: 50px auto;
+  font-family: roboto, 'sans-serif';
+}
+
+.hero__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hero__image {
+  border: 3px solid #eee;
+  border-radius: 3px;
+  padding: 1px;
+  max-width: 550px;
+}
+
+.hero__image img {
+  display: block;
+  width: 100%;
+}
+
+.hero__text {
+  max-width: 550px;
+}
+
+.hero__title {
+  margin-top: 25px;
+  color: #13366d;
+}
+
+.hero__description {
+  margin-top: 8px;
+  color: #666;
+  font-size: 14px;
+}
+
+.hero__form {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.hero__input {
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  padding: 7px 10px 10px 7px;
+  outline: none;
+}
+
+::placeholder {
+  color: rgba(170, 170, 170, 0.712);
+}
+
+.hero__btn {
+  border: 0;
+  border-radius: 3px;
+  padding: 10px 0;
+  color: #fff;
+  background-color: #0c449e;
+  font-weight: bold;
+  box-shadow: 0 4px 2px -1px #000;
+  cursor: pointer;
+}
+
+.hero__btn:hover {
+  background-color: #0c3f91;
+
+  box-shadow: 0 5px 2px -1px rgba(0, 0, 0, 0.7);
+}
+
+.hero__list {
+  list-style: none;
+  margin-top: 25px;
+  padding: 0;
+}
+
+.hero__list__item {
+  display: flex;
+  margin-bottom: 5px;
+}
+
+.hero__list__item img {
+  margin-right: 5px;
+}
+
+.hero__list__item span {
+  color: #666;
+  font-size: 14px;
 }
     /* Start nav-bar */
-    
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 5%;
+}
+.toog{
+    display: none;
+}
+.nav__bar{
+    width: 35%;
+}
+.nav__bar ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+
+}
+.nav__bar ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.sign{
+    display: flex;
+    justify-content: space-between;
+    gap: 7.5px;
+    align-items: center;
+}
+.sign div a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    padding: 7.5px;
+    font-size: 18px;
+}
+.sign button{
+    background-color: #0B48A8;
+    color: #fff;
+    font-size: 15px;
+    padding: 7.5px;
+    border-radius: 7.5px;
+    border: none;
+}
+
+.sign div a:hover{
+    background-color: #0B48A8;
+    color: #fff;
+    font-size: 18px;
+    padding: 7.5px;
+    border-radius: 7.5px;
+    border: none;
+}
+.sign button:hover{
+    background-color: rgb(255, 255, 255);
+    color: #0B48A8;
+    cursor: pointer;
+}
+
+@media screen and (max-width:1080px) {
+    .nav__bar{
+        width: 50%;
+    }
+}
+@media screen and (max-width:620px) {
+    .nav__bar{
+        display: none;
+    }
+    .toog{
+        display: block;
+        margin: 10px 0px;
+    }
+    .sign{
+        display: none;
+    }
+}
     /* end nav-bar */
 
-    /* start Hero section */
-    
-    /* end Hero section */
+@media screen and (min-width: 992px) {
+  .hero__content {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .hero__image {
+    order: 1;
+  }
+
+  .hero__text {
+    display: flex;
+    flex-direction: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .hero__title {
+    margin-bottom: 40px;
+    font-size: 40px;
+  }
+
+  .hero__form {
+    flex-direction: row;
+  }
+
+  .hero__input {
+    margin-bottom: 0;
+    margin-right: 20px;
+    width: 250px;
+  }
+
+  .hero__btn {
+    padding: 0 20px;
+  }
+
+  .hero__list {
+    display: flex;
+  }
+  .hero__list__item {
+    margin-right: 20px;
+  }
+}
+/* End Hero Section */
+
+/* end Hero section */
+
+/* start features section */
+
+/* end features section */
+
+/* start Pricing Section */
 
     /* start features section */
 
@@ -66,10 +294,8 @@ body{
       }
     /* end features section */
 
-    /* start Pricing Section */
+/* end Pricing Section */
 
-    /* end Pricing Section */
-    
-    /* start Footer*/
-    
-    /* end Footer*/
+/* start Footer*/
+
+/* end Footer*/
