@@ -244,6 +244,7 @@ header {
 /* start features section */
 
 .test__parent {
+  background-color:white ;
   font-family: Arial, Helvetica, sans-serif;
   color: #a2a2a2;
   border: 1px solid black;
@@ -257,6 +258,7 @@ header {
 }
 
 .item {
+  background-color: white;
   border: 1px solid #b8b8b8;
   border-radius: 2px;
   margin: 3%;
@@ -274,6 +276,7 @@ header {
 
 @media screen and (min-width: 429px) {
   .test__parent {
+    background-color: #FBF7EE;
     flex-direction: row;
     border: none;
   }
