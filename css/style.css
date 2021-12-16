@@ -15,7 +15,55 @@ body{
     /* end Hero section */
 
     /* start features section */
-    
+
+    .test__parent{ 
+        font-family: Arial, Helvetica, sans-serif;
+        color: #A2A2A2;
+        border: 1px solid black;
+        margin: 0 5%;
+        margin-top: 5%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 2%;
+      }
+      
+      .item{
+        border: 1px solid #B8B8B8;
+        border-radius: 2px;
+        margin:  3%;
+        padding: 3%;
+        width: 88%;
+      }
+      .col{
+        color: black;
+      }
+      .para{
+        font-size: 20PX;
+      }
+      
+      /*------Tablet------*/
+      
+      @media screen and (min-width: 429px) {
+        .test__parent{
+          flex-direction: row;
+          border: none;
+        }  
+        .item{
+          width: 40%;
+          margin: 0;
+          margin-bottom: 5%;
+        }
+      }
+      
+      /*------Desktop------*/
+        
+      @media screen and (min-width: 1024px) {  
+        .item{
+          width: 16%;
+        }
+      }
     /* end features section */
 
     /* start Pricing Section */
