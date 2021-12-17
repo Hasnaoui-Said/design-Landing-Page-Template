@@ -5,7 +5,6 @@ body {
   height: auto;
   background-color: #fbf7ee;
 }
-/* Start nav-bar */
  /* Start nav-bar */
 header{
   display: flex;
@@ -91,9 +90,8 @@ header{
         display: none;
     }
 }
-      /* end nav-bar */
-
 /* end nav-bar */
+
 
 /* start Hero section */
 
