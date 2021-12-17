@@ -7,83 +7,90 @@ body {
 }
 
     /* Start nav-bar */
-    header{
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      margin: 0 5%;
-  }
-  .toog{
-      display: none;
-  }
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 5%;
+}
+.toog{
+    display: none;
+}
+.nav__bar{
+    width: 35%;
+}
+.nav__bar ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+.nav__bar ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.sign{
+    display: flex;
+    justify-content: space-between;
+    gap: 7.5px;
+    align-items: center;
+}
+.sign div a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    padding: 7.5px;
+    font-size: 18px;
+}
+.sign div a:hover{
+  background-color: #0B48A8;
+  color: #fff;
+  font-size: 18px;
+  padding: 7.5px;
+  border-radius: 7.5px;
+  border: none;
+  box-shadow: 0 5px 2px -1px rgba(0, 0, 0, 0.7);
+}
+.sign button{
+    background-color: #0B48A8;
+    color: #fff;
+    font-size: 15px;
+    padding: 7.5px;
+    border-radius: 7.5px;
+    border: none;
+    box-shadow: 0 5px 2px -1px rgba(0, 0, 0, 0.7);
+}
+
+.sign button:hover{
+    background-color: rgb(255, 255, 255);
+    color: #0B48A8;
+    cursor: pointer;
+    box-shadow: 0 5px 2px -1px rgba(0, 0, 0, 0.7);
+}
+
+@media screen and (max-width:1080px) {
   .nav__bar{
-      width: 35%;
+      width: 50%;
   }
-  .nav__bar ul{
-      display: flex;
-      justify-content: space-around;
-      align-items: center;
-      list-style: none;
-  
-  }
-  .nav__bar ul li a{
-      text-decoration: none;
-      color: black;
-  }
-  
-  .sign{
-      display: flex;
-      justify-content: space-between;
-      gap: 7.5px;
-      align-items: center;
-  }
-  .sign div a{
-      text-decoration: none;
-      color: black;
-      cursor: pointer;
-      padding: 7.5px;
-      font-size: 18px;
-  }
-  .sign button{
-      background-color: #0B48A8;
-      color: #fff;
-      font-size: 15px;
-      padding: 7.5px;
-      border-radius: 7.5px;
-      border: none;
-  }
-  
-  .sign div a:hover{
-      background-color: #0B48A8;
-      color: #fff;
-      font-size: 18px;
-      padding: 7.5px;
-      border-radius: 7.5px;
-      border: none;
-  }
-  .sign button:hover{
-      background-color: rgb(255, 255, 255);
-      color: #0B48A8;
-      cursor: pointer;
-  }
-  
-  @media screen and (max-width:1080px) {
-      .nav__bar{
-          width: 50%;
-      }
-  }
-  @media screen and (max-width:620px) {
-      .nav__bar{
-          display: none;
-      }
-      .toog{
-          display: block;
-          margin: 10px 0px;
-      }
-      .sign{
-          display: none;
-      }
-  }
+}
+@media screen and (max-width:720px) {
+    .nav__bar{
+        width: 55%;
+    }
+}
+@media screen and (max-width:650px) {
+    .nav__bar{
+        display: none;
+    }
+    .toog{
+        display: block;
+        margin: 10px 0px;
+    }
+    .sign{
+        display: none;
+    }
+}
       /* end nav-bar */
 
 /* start Hero section */
@@ -162,7 +169,6 @@ body {
 
 .hero__btn:hover {
   background-color: #0c3f91;
-
   box-shadow: 0 5px 2px -1px rgba(0, 0, 0, 0.7);
 }
 
