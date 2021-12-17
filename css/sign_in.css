@@ -1,0 +1,98 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: auto;
+  background-color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* ----------------- */
+.parent_sign_in{
+  padding-top: 5%;
+  margin: 0 5%;
+  display: flex;
+  justify-content:space-between;
+  text-align: center;
+}
+.image_sign_in, .formulaire{
+  width: 45%;
+}
+.formulaire{
+  background-color: #fbf7ee;
+ 
+  padding: 3%;
+  padding-top: 0;
+}
+.image_sign_in img{
+   width: 100%;
+   height: 100%; 
+}
+.child__form{
+  display: flex;
+  flex-direction: column;
+}
+.formulaire label{
+   float: left;
+   text-align: left;
+   margin-left: 30px;
+}
+
+.formulaire input{
+padding:2% 3%;
+margin: -20px 30px;
+border: 1px solid gray;
+border-radius: 17px;
+text-align: center;
+}
+.btn{
+ 
+margin-top: 10%;
+}
+.btn input{
+box-shadow: 0 5px 2px -1px rgb(0, 0, 0,0.7);
+   background-color: #0b48a8;
+   color: white;
+   margin: 30px;
+}
+.btn input:hover{
+  background-color: white;
+  color: #0b48a8;
+}
+
+.btn a{
+  text-decoration: none;
+  color: #0b48a8;
+  font-size: 15px;
+}
+
+
+@media screen and (max-width: 620px) {
+    .nav__bar {
+      display: none;
+    }
+    .toog {
+      display: block;
+      margin: 10px 0px;
+    }
+    .sign {
+      display: none;
+    }
+
+    .image_sign_in{
+        display: none;
+
+    }
+    .formulaire{
+      border-radius: 17px;
+        width: 100% !important;
+    }
+    
+  }
+
+
+@media screen and (max-width: 1080px) {
+  .nav__bar {
+    width: 50%;
+  }
+}
+
