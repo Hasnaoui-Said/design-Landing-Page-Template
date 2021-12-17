@@ -1,0 +1,186 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: auto;
+    background-color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  /* Start nav-bar */
+  header {
+    background-color: #fbf7ee;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1% 5%;
+  }
+  .toog {
+    display: none;
+  }
+  .nav__bar {
+    width: 35%;
+  }
+  .nav__bar ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+  }
+  .nav__bar ul li a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .sign {
+    display: flex;
+    justify-content: space-between;
+    gap: 7.5px;
+    align-items: center;
+  }
+  .sign div a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    padding: 7.5px;
+    font-size: 18px;
+  }
+  .sign button {
+    background-color: #0b48a8;
+    color: #fff;
+    font-size: 15px;
+    padding: 7.5px;
+    border-radius: 7.5px;
+    border: none;
+    box-shadow: 0 5px 2px -1px rgb(0, 0, 0, 0.7);
+  }
+  
+  .sign div a:hover {
+    background-color: #0b48a8;
+    color: #fff;
+    font-size: 18px;
+    padding: 7.5px;
+    border-radius: 7.5px;
+    border: none;
+  }
+  .sign button:hover {
+    background-color: rgb(255, 255, 255);
+    color: #0b48a8;
+    cursor: pointer;
+  }
+  /* --------------- */
+  .parent_contact{
+    margin: 2% 5%;
+    display: flex;
+    justify-content:space-between;
+    text-align: center;
+  
+  
+}
+.image_contact, .formulaire{
+
+    width: 45%;
+}
+.formulaire{
+  background-color: #FBF7EE;
+    padding: 3%;
+    padding-top: 0;
+ 
+}
+ .image_contact img{
+     width: 100%;
+     height: 100%; 
+ }
+ .child__form{
+    display: flex;
+    flex-direction: column;
+ }
+ .formulaire label{
+     margin-left: 30px;
+     float: left;
+     text-align: left;
+ }
+
+ .formulaire input, .formulaire textarea {
+   
+padding:2%  3%;
+margin:  -20px 30px;
+border-radius: 17px;
+text-align: center;
+border: 1px solid gray;
+ }
+ 
+ .formulaire textarea{
+  border: 1px solid gray;
+     max-width: 90%;
+
+ }
+
+
+
+
+ .btn input{
+     background-color: #0b48a8;
+     color: white;
+     margin: 30px;
+     margin-top: 60px;
+     box-shadow: 0 5px 2px -1px rgb(0, 0, 0, 0.7);
+ }
+ .btn input:hover{
+    background-color: white;
+    color: #0b48a8;
+}
+
+.btn a{
+    text-decoration: none;
+    color: #0b48a8;
+    font-size: 15px;
+}
+
+
+  
+  @media screen and (max-width: 620px) {
+      .nav__bar {
+        display: none;
+      }
+      .toog {
+        display: block;
+        margin: 10px 0px;
+      }
+      .sign {
+        display: none;
+      }
+  
+      .image_contact{
+          display: none;
+  
+      }
+      .formulaire{
+          width: 100% !important;
+          border-radius: 17px;
+      }
+      .formulaire textarea{
+        max-width: 90% !important;
+    }
+
+     
+    }
+  
+  
+  @media screen and (max-width: 1080px) {
+    .nav__bar {
+      width: 50%;
+    }
+  }
+  
+ 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
