@@ -241,6 +241,191 @@ header {
 
 /* start Pricing Section */
 
+section{
+  margin: 0 5%;
+}
+.para h2{
+  font-family: 'Karla', sans-serif;
+  font-size: 35px;
+  color: #13366D;
+  font-weight: 500;
+  width: 100%;
+  margin-right: 10%;
+  margin-bottom: 2%;
+}
+.para{
+  font-family: 'Karla', sans-serif;
+  font-size: 15px;
+  color:#A2A2A2 ;
+  margin: 0;
+  padding: 0;  
+}
+.para p{
+  margin-right: 20%;
+  margin-top: 0%;
+}
+
+.pricing{
+  font-family: 'Karla', sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+}
+ul li {
+  text-decoration: none;
+  list-style: none;
+}
+.startup{
+  border-style:solid;
+  border-color: #C2C2C2;
+  background-color: #FFF3D9;
+  font-family: 'Karla', sans-serif;
+  font-size: 20;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  margin: 0;
+  margin-bottom: 10%;
+}
+.pricing ul li{
+  margin-bottom: 5%;
+}
+.star{
+  border: solid 1px #13366D;
+  border-radius:10px;
+  background-color: #13366D;
+  box-shadow: 0 2px 1px 1px#13366D;
+  font-weight: bold;
+  color: #FFFFFF;
+  height: 9%;
+  font-style: bold;
+  padding:0%;
+  align-self: flex-start;
+  width: 50%;
+  margin-left: 5%;
+}
+
+button{
+  display: block;
+}
+.try{
+  border: solid 1px #13366D;
+  height: 10%;
+  color: #13366D;
+  border-radius: 4px;
+  font-weight: bold;
+  background-color: #FFF3D9;
+  width: 90%;
+  
+}
+.ads{
+  border-style:solid;
+  border-color: #C2C2C2;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+}
+
+#image{
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.valeur{
+  color:#8D8D8D;
+  font-size: 30px;
+  margin-top: 10%;
+}
+.changement{
+  color: black;
+  font-size: 30px;
+}
+
+#contact{
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 50px;
+}
+
+.startup *{
+  margin: 7.5px 0;
+  padding: 0;
+}
+@media screen and (min-width:510px) {
+.pricing{
+  flex-direction: row;
+  flex-wrap: wrap;
+
+}
+.startup{
+  width: 40%;
+}
+}
+@media screen and (min-width:700px) {
+
+  .para h2{
+    font-size: 50px;
+    margin-right: 50%;
+    margin-bottom: 2%;
+    font-weight: 900;
+  }
+  .para p{
+    
+    margin-right: 59%;
+    margin-top: 0%;
+}
+  .pricing{ 
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: stretch;
+    flex-wrap: wrap;
+    gap:20px;
+  }
+  .try{
+    border-color: #13366D;
+    height: 30px;
+    margin-bottom: 2%;
+  }
+  .try:hover{
+    color:white;
+    background-color: #0B48A8;
+    box-shadow: 0 4px 2px -1px #000;
+}
+  .startup{
+    width: 20%;
+    flex: 1;
+  }
+  .ads{
+    align-self: center;
+    padding-left: 1%;
+    padding-right: 1%;
+    color: #A2A2A2;
+  }
+  .star{
+    margin-left: 5%;
+  }
+  .valeur{
+    padding-top: 10%;
+    padding-bottom: 5%;
+  }
+  #contact{
+   margin-bottom: 5%;
+   padding-bottom: 0%;
+   padding-left: 5%;
+   font-weight: 700;
+
+  }
+  #per{
+    margin-top: 5%;
+    padding-left: 5%;
+    margin-bottom: 35%;
+  }
+  
+}
 /* start features section */
 
 .test__parent {
