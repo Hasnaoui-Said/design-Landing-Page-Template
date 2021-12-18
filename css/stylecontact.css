@@ -1,164 +1,162 @@
-  body {
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    height: auto;
-    background-color: #fbf7ee;
-  }
-  /* Start nav-bar */
-  header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0 5%;
-  }
-  .toog {
-    display: none;
-  }
-  .nav__bar {
-    width: 35%;
-  }
-  .nav__bar ul {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    list-style: none;
-  }
-  .nav__bar ul li a {
-    text-decoration: none;
-    color: black;
-  }
-  
-  .sign {
-    display: flex;
-    justify-content: space-between;
-    gap: 7.5px;
-    align-items: center;
-  }
-  .sign div a {
-    text-decoration: none;
-    color: black;
-    cursor: pointer;
-    padding: 7.5px;
-    font-size: 18px;
-  }
-  .sign button {
-    background-color: #0b48a8;
-    color: #fff;
-    font-size: 15px;
-    padding: 7.5px;
-    border-radius: 7.5px;
-    border: none;
-    box-shadow: 0 5px 2px -1px rgb(0, 0, 0, 0.7);
-  }
-  
-  .sign div a:hover {
-    background-color: #0b48a8;
-    color: #fff;
-    font-size: 18px;
-    padding: 7.5px;
-    border-radius: 7.5px;
-    border: none;
-  }
-  .sign button:hover {
-    background-color: rgb(255, 255, 255);
-    color: #0b48a8;
-    cursor: pointer;
-  }
-  /* --------------- */
-  .parent_contact{
-    margin: 2% 5%;
-    display: flex;
-    justify-content:space-between;
-    text-align: center;
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: auto;
+  background-color: #fbf7ee;
 }
-.image_contact, .formulaire{
-    width: 45%;
+/* Start nav-bar */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 5%;
 }
-.formulaire{
-  background-color: #FBF7EE;
-    padding: 3%;
+.toog {
+  display: none;
 }
- .image_contact img{
-     width: 100%;
-     height: 100%; 
- }
- .child__form{
-    display: flex;
-    flex-direction: column;
- }
- .formulaire label{
-     text-align: left;
-     margin-bottom: -30px;
- }
-
-.formulaire input, .formulaire textarea {
-    padding:2%  3%;
-    margin:  -10px 0px;
-    text-align: center;
-    border: 0;
-    outline: 0;
-    border-bottom: 2px black solid;
-    background-color: transparent;
-    color: gray;
-    font-size: 1.1rem;
+.nav__bar {
+  width: 35%;
 }
-.formulaire input[type=text]:focus, .formulaire textarea:focus {
-  border: none;
-  background-color: #fff;
-    transition: border-color 0.2s;
+.nav__bar ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+}
+.nav__bar ul li a {
+  text-decoration: none;
   color: black;
 }
 
- .btn input{
-     background-color: #0b48a8;
-     color: white;
-     margin: 30px;
-     margin-top: 60px;
-     cursor: pointer;
-     box-shadow: 0 5px 2px -1px rgb(0, 0, 0, 0.7);
- }
- .btn input:hover{
-    background-color: white;
-    color: #0b48a8;
+.sign {
+  display: flex;
+  justify-content: space-between;
+  gap: 7.5px;
+  align-items: center;
+}
+.sign div a {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+  padding: 7.5px;
+  font-size: 18px;
+}
+.sign button {
+  background-color: #0b48a8;
+  color: #fff;
+  font-size: 15px;
+  padding: 7.5px;
+  border-radius: 7.5px;
+  border: none;
+  box-shadow: 0 5px 2px -1px rgb(0, 0, 0, 0.7);
 }
 
-.btn a{
-    text-decoration: none;
-    color: #0b48a8;
-    font-size: 15px;
+.sign div a:hover {
+  background-color: #0b48a8;
+  color: #fff;
+  font-size: 18px;
+  padding: 7.5px;
+  border-radius: 7.5px;
+  border: none;
+}
+.sign button:hover {
+  background-color: rgb(255, 255, 255);
+  color: #0b48a8;
+  cursor: pointer;
+}
+/* --------------- */
+.parent_contact {
+  margin: 2% 5%;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+.image_contact,
+.formulaire {
+  width: 45%;
+}
+.formulaire {
+  background-color: #fbf7ee;
+  padding: 3%;
+}
+.image_contact img {
+  width: 100%;
+  height: 100%;
+}
+.child__form {
+  display: flex;
+  flex-direction: column;
+}
+.formulaire label {
+  text-align: left;
+  margin-bottom: -30px;
 }
 
+.formulaire input,
+.formulaire textarea {
+  padding: 2% 3%;
+  margin: -10px 0px;
+  text-align: center;
+  border: 0;
+  outline: 0;
+  border-bottom: 2px black solid;
+  background-color: transparent;
+  color: gray;
+  font-size: 1.1rem;
+}
+.formulaire input[type="text"]:focus,
+.formulaire textarea:focus {
+  border: none;
+  background-color: #fff;
+  transition: border-color 0.2s;
+  color: black;
+}
 
-  
+.btn input {
+  background-color: #0b48a8;
+  color: white;
+  margin: 30px;
+  margin-top: 60px;
+  cursor: pointer;
+  box-shadow: 0 5px 2px -1px rgb(0, 0, 0, 0.7);
+}
+.btn input:hover {
+  background-color: white;
+  color: #0b48a8;
+}
+
+.btn a {
+  text-decoration: none;
+  color: #0b48a8;
+  font-size: 15px;
+}
+
 @media screen and (max-width: 720px) {
-    .nav__bar {
-      display: none;
-    }
-    .toog {
-      display: block;
-      margin: 10px 0px;
-    }
-    .sign {
-      display: none;
-    }
-
-    .image_contact{
-        display: none;
-
-    }
-    .formulaire{
-        width: 100% !important;
-    }
-     
-}
-  
-  
-  @media screen and (max-width: 1080px) {
-    .nav__bar {
-      width: 50%;
-    }
+  .nav__bar {
+    display: none;
   }
+  .toog {
+    display: block;
+    margin: 10px 0px;
+  }
+  .sign {
+    display: none;
+  }
+
+  .image_contact {
+    display: none;
+  }
+  .formulaire {
+    width: 100% !important;
+  }
+}
+
+@media screen and (max-width: 1080px) {
+  .nav__bar {
+    width: 50%;
+  }
+}
 
 /* start Footer*/
 .container {
@@ -233,11 +231,3 @@
 }
 
 /* end Footer*/
-  
-  
-  
-  
-  
-  
-  
-  
