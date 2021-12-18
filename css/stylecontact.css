@@ -88,34 +88,33 @@
     flex-direction: column;
  }
  .formulaire label{
-     margin-left: 30px;
-     float: left;
      text-align: left;
+     margin-bottom: -30px;
  }
 
- .formulaire input, .formulaire textarea {
-   
-padding:2%  3%;
-margin:  -20px 30px;
-border-radius: 17px;
-text-align: center;
-border: 1px solid gray;
- }
- 
- .formulaire textarea{
-  border: 1px solid gray;
-     max-width: 90%;
-
- }
-
-
-
+.formulaire input, .formulaire textarea {
+    padding:2%  3%;
+    margin:  -10px 0px;
+    text-align: center;
+    border: none;
+    border-bottom: 2px black solid;
+    background-color: transparent;
+    color: gray;
+    font-size: 1.1rem;
+}
+.formulaire input[type=text]:focus, .formulaire textarea:focus {
+  border: none;
+  background-color: #fff;
+    transition: border-color 0.2s;
+  color: black;
+}
 
  .btn input{
      background-color: #0b48a8;
      color: white;
      margin: 30px;
      margin-top: 60px;
+     cursor: pointer;
      box-shadow: 0 5px 2px -1px rgb(0, 0, 0, 0.7);
  }
  .btn input:hover{
@@ -131,32 +130,27 @@ border: 1px solid gray;
 
 
   
-  @media screen and (max-width: 620px) {
-      .nav__bar {
-        display: none;
-      }
-      .toog {
-        display: block;
-        margin: 10px 0px;
-      }
-      .sign {
-        display: none;
-      }
-  
-      .image_contact{
-          display: none;
-  
-      }
-      .formulaire{
-          width: 100% !important;
-          border-radius: 17px;
-      }
-      .formulaire textarea{
-        max-width: 90% !important;
+@media screen and (max-width: 720px) {
+    .nav__bar {
+      display: none;
+    }
+    .toog {
+      display: block;
+      margin: 10px 0px;
+    }
+    .sign {
+      display: none;
     }
 
-     
+    .image_contact{
+        display: none;
+
     }
+    .formulaire{
+        width: 100% !important;
+    }
+     
+}
   
   
   @media screen and (max-width: 1080px) {

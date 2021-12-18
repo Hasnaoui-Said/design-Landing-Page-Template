@@ -68,29 +68,6 @@ header {
   box-shadow: 0 5px 2px -1px rgba(0, 0, 0, 0.7);
 }
 
-@media screen and (max-width: 1080px) {
-  .nav__bar {
-    width: 50%;
-  }
-}
-@media screen and (max-width: 720px) {
-  .nav__bar {
-    width: 55%;
-  }
-}
-@media screen and (max-width: 650px) {
-  .nav__bar {
-    display: none;
-  }
-  .toog {
-    display: block;
-    margin: 10px 0px;
-  }
-  .sign {
-    display: none;
-  }
-}
-/* end nav-bar */
 
 /* Start nav-bar */
 header {
@@ -157,7 +134,7 @@ header {
     width: 50%;
   }
 }
-@media screen and (max-width: 620px) {
+@media screen and (max-width: 720px) {
   .nav__bar {
     display: none;
   }
@@ -381,18 +358,18 @@ ul li {
   margin-bottom: 5%;
 }
 .star {
-  border: solid 1px #13366d;
+  border: none;
   border-radius: 10px;
   background-color: #13366d;
   box-shadow: 0 2px 1px 1px#13366D;
   font-weight: bold;
   color: #ffffff;
-  height: 9%;
+  height: 10%;
   font-style: bold;
-  padding: 0%;
+  padding: 1% !important;
   align-self: flex-start;
   width: 50%;
-  margin-left: 5%;
+  margin-left: 30px !important;
 }
 
 button {
@@ -404,8 +381,8 @@ button {
   color: #13366d;
   border-radius: 4px;
   font-weight: bold;
-  background-color: #fff3d9;
-  width: 90%;
+  background-color: transparent;
+  width: 60%;
 }
 .ads {
   border-style: solid;
@@ -449,7 +426,7 @@ button {
     width: 40%;
   }
 }
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 720px) {
   .para h2 {
     font-size: 50px;
     margin-right: 50%;
@@ -487,9 +464,7 @@ button {
     padding-right: 1%;
     color: #a2a2a2;
   }
-  .star {
-    margin-left: 5%;
-  }
+
   .valeur {
     padding-top: 10%;
     padding-bottom: 5%;
