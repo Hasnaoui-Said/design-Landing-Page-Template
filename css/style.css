@@ -155,7 +155,7 @@ header {
 
 .hero-section {
   margin: 40px auto;
-  font-family: roboto, "sans-serif";
+  font-family: roboto, 'sans-serif';
 }
 
 .hero__content {
@@ -191,7 +191,7 @@ header {
   margin-top: 25px;
   color: #13366d;
   font-size: 30px;
-  font-family: roboto, "sans-serif";
+  font-family: roboto, 'sans-serif';
   text-transform: uppercase;
 }
 
@@ -314,7 +314,7 @@ section {
   margin: 0 5%;
 }
 .para h2 {
-  font-family: "Karla", sans-serif;
+  font-family: 'Karla', sans-serif;
   font-size: 35px;
   color: #13366d;
   font-weight: 500;
@@ -323,7 +323,7 @@ section {
   margin-bottom: 2%;
 }
 .para {
-  font-family: "Karla", sans-serif;
+  font-family: 'Karla', sans-serif;
   font-size: 15px;
   color: #a2a2a2;
   margin: 0;
@@ -335,7 +335,7 @@ section {
 }
 
 .pricing {
-  font-family: "Karla", sans-serif;
+  font-family: 'Karla', sans-serif;
   margin: 0;
   padding: 0;
   display: flex;
@@ -351,7 +351,7 @@ ul li {
   border-style: solid;
   border-color: #c2c2c2;
   background-color: #fff3d9;
-  font-family: "Karla", sans-serif;
+  font-family: 'Karla', sans-serif;
   font-size: 20;
   display: flex;
   align-items: center;
@@ -548,7 +548,7 @@ button {
 .footer-section {
   padding: 20px 0 40px 0;
   background-color: #13366d;
-  font-family: roboto, "sans-serif";
+  font-family: roboto, 'sans-serif';
 }
 
 .footer__logo h2 {
@@ -573,8 +573,9 @@ button {
 
 .footer__item a {
   margin-right: 7px;
-  color: #fff;
+  color: rgb(216, 216, 216);
   text-decoration: none;
+  font-size: 14px;
 }
 
 .footer__item a:hover {
@@ -588,18 +589,19 @@ button {
 
 .footer__icons img {
   margin: 0 5px;
-  width: 20px;
-  height: 25px;
+  width: 22px;
+  height: 22px;
 }
 
 .footer__copyright {
   margin: 0;
-  color: #fff;
+  color: rgb(216, 216, 216);
   text-align: center;
+  font-size: 14px;
 }
 
 .footer__copyright img {
-  width: 20px;
+  width: 14px;
 }
 
 /* Start Media Queries */
