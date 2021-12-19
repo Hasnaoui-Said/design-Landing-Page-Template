@@ -1,4 +1,5 @@
 :root {
+  --bgc: #fbf7ee
 }
 
 body {
@@ -6,7 +7,7 @@ body {
   padding: 0;
   width: 100%;
   height: auto;
-  background-color: #fbf7ee;
+  background-color: var(--bgc);
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 

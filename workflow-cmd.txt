@@ -1,0 +1,13 @@
+
+creee un branch
+	git branch nom_branch
+lister des branches
+	git branch
+check un branch
+	git checkout nom_branch
+	git add .
+	git commit
+	git push
+pull main
+    	deplacer sur l'endroi main git pull
+	git merge main
