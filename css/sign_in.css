@@ -73,12 +73,13 @@ body {
       width: 50%;
   }
 }
-@media screen and (max-width:720px) {
-    .nav__bar{
-        width: 55%;
-    }
+@media screen and (max-width: 720px) {
+  .nav__bar {
+    width: 57.5%;
+  }
 }
-@media screen and (max-width:650px) {
+
+@media screen and (max-width:663px) {
     .nav__bar{
         display: none;
     }

@@ -135,6 +135,11 @@ header {
 }
 @media screen and (max-width: 720px) {
   .nav__bar {
+    width: 57.5%;
+  }
+}
+@media screen and (max-width: 663px) {
+  .nav__bar {
     display: none;
   }
   .toog {
