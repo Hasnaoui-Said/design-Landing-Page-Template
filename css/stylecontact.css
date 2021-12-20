@@ -12,6 +12,7 @@ header {
   align-items: center;
   margin: 0 5%;
 }
+
 .toog {
   display: none;
 }
@@ -27,6 +28,7 @@ header {
 .nav__bar ul li a {
   text-decoration: none;
   color: black;
+  
 }
 
 .sign {
