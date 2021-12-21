@@ -52,8 +52,8 @@ header {
   box-shadow: 0 5px 2px -1px rgba(0, 0, 0, 0.7);
 }
 .sign button {
-  background-color: #0b48a8;
-  color: #fff;
+  background-color: #ffffff;
+  color: #0b48a8;
   font-size: 15px;
   padding: 7.5px;
   border-radius: 7.5px;
@@ -62,8 +62,8 @@ header {
 }
 
 .sign button:hover {
-  background-color: rgb(255, 255, 255);
-  color: #0b48a8;
+  background-color: #0b48a8;
+  color: white;
   cursor: pointer;
   box-shadow: 0 5px 2px -1px rgba(0, 0, 0, 0.7);
 }
@@ -106,8 +106,8 @@ header {
   font-size: 18px;
 }
 .sign button {
-  background-color: #0b48a8;
-  color: #fff;
+  background-color: #ffffff;
+  color: #0b48a8;
   font-size: 15px;
   padding: 7.5px;
   border-radius: 7.5px;
@@ -123,8 +123,8 @@ header {
   border: none;
 }
 .sign button:hover {
-  background-color: rgb(255, 255, 255);
-  color: #0b48a8;
+  background-color: #0b48a8;
+  color: white;
   cursor: pointer;
 }
 
