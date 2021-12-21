@@ -52,8 +52,8 @@ body {
   box-shadow: 0 5px 2px -1px rgba(0, 0, 0, 0.7);
 }
 .sign button{
-    background-color: #0B48A8;
-    color: #fff;
+  background-color: #ffffff;
+  color: #0b48a8;
     font-size: 15px;
     padding: 7.5px;
     border-radius: 7.5px;
@@ -62,8 +62,8 @@ body {
 }
 
 .sign button:hover{
-    background-color: rgb(255, 255, 255);
-    color: #0B48A8;
+  background-color: #0B48A8;
+  color: #fff;
     cursor: pointer;
     box-shadow: 0 5px 2px -1px rgba(0, 0, 0, 0.7);
 }
@@ -73,12 +73,13 @@ body {
       width: 50%;
   }
 }
-@media screen and (max-width:720px) {
-    .nav__bar{
-        width: 55%;
-    }
+@media screen and (max-width: 720px) {
+  .nav__bar {
+    width: 57.5%;
+  }
 }
-@media screen and (max-width:650px) {
+
+@media screen and (max-width:663px) {
     .nav__bar{
         display: none;
     }
