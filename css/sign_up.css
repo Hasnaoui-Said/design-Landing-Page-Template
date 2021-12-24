@@ -50,7 +50,7 @@ header {
   font-size: 18px;
 }
 .sign div a:hover {
-  background-color: var(--bleu);
+  background-color: #0B48A8;
   color: #fff;
   font-size: 18px;
   padding: 7.5px;
@@ -59,8 +59,8 @@ header {
   box-shadow: 0 5px 2px -1px rgba(0, 0, 0, 0.7);
 }
 .sign button {
-  background-color: var(--bleu);
-  color: #fff;
+  background-color: #ffffff;
+  color: #0b48a8;
   font-size: 15px;
   padding: 7.5px;
   border-radius: 7.5px;
@@ -69,8 +69,8 @@ header {
 }
 
 .sign button:hover {
-  background-color: rgb(255, 255, 255);
-  color: var(--bleu);
+  background-color: #0B48A8;
+  color: #fff;
   cursor: pointer;
   box-shadow: 0 5px 2px -1px rgba(0, 0, 0, 0.7);
 }
@@ -141,14 +141,14 @@ header {
   text-align: center;
 }
 .btn input {
-  background-color: var(--bleu);
-  color: white;
+  background-color: #0B48A8;
+  color: #fff;
   margin: 30px;
   box-shadow: 0 5px 2px -1px rgb(0, 0, 0, 0.7);
 }
 .btn input:hover {
-  background-color: white;
-  color: var(--bleu);
+  background-color: #ffffff;
+  color: #0b48a8;
 }
 
 @media screen and (max-width: 620px) {
